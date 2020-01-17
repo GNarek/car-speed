@@ -17,6 +17,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* speedometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* speedometerTests.m */; };
 		44EF11831435D1D254714CC4 /* libPods-speedometer-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BA279539F57DA3D13AA6F2 /* libPods-speedometer-tvOSTests.a */; };
+		6D1362FE23D1965300C553F2 /* React-RCTPushNotification.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6D1362FD23D1965300C553F2 /* React-RCTPushNotification.podspec */; };
+		6D1362FF23D1969B00C553F2 /* React-RCTPushNotification.podspec in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1362FD23D1965300C553F2 /* React-RCTPushNotification.podspec */; };
 		973998A1AFA88E31102AB075 /* libPods-speedometerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D62FDCF8CBF39D67F918C0 /* libPods-speedometerTests.a */; };
 		CAA28C695B48C49E8F27C813 /* libPods-speedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA57267D39512FCF6047E4E /* libPods-speedometer.a */; };
 		D457313743292CA142D39E19 /* libPods-speedometer-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B40B7430FB9F5DD616FA78 /* libPods-speedometer-tvOS.a */; };
@@ -60,6 +62,7 @@
 		41B40B7430FB9F5DD616FA78 /* libPods-speedometer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-speedometer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDC2179A27FB91040CD3F6 /* Pods-speedometerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speedometerTests.release.xcconfig"; path = "Target Support Files/Pods-speedometerTests/Pods-speedometerTests.release.xcconfig"; sourceTree = "<group>"; };
 		68D62FDCF8CBF39D67F918C0 /* libPods-speedometerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-speedometerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1362FD23D1965300C553F2 /* React-RCTPushNotification.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "React-RCTPushNotification.podspec"; path = "../node_modules/react-native/Libraries/PushNotificationIOS/React-RCTPushNotification.podspec"; sourceTree = "<group>"; };
 		77A220BD88919A0E1B97F26D /* Pods-speedometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speedometer.release.xcconfig"; path = "Target Support Files/Pods-speedometer/Pods-speedometer.release.xcconfig"; sourceTree = "<group>"; };
 		97BA279539F57DA3D13AA6F2 /* libPods-speedometer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-speedometer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C717C0B7292632FD99E926B5 /* Pods-speedometer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-speedometer-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-speedometer-tvOSTests/Pods-speedometer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA28C695B48C49E8F27C813 /* libPods-speedometer.a in Frameworks */,
+				6D1362FF23D1969B00C553F2 /* React-RCTPushNotification.podspec in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +152,6 @@
 				2619512171D75A14CBD75266 /* Pods-speedometerTests.debug.xcconfig */,
 				4CEDC2179A27FB91040CD3F6 /* Pods-speedometerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,6 +171,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				6D1362FD23D1965300C553F2 /* React-RCTPushNotification.podspec */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -308,6 +312,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6D1362FE23D1965300C553F2 /* React-RCTPushNotification.podspec in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

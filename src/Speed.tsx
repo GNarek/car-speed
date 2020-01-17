@@ -3,11 +3,12 @@ import geolocation from 'react-native-geolocation-service';
 import {
   StyleSheet,
   View,
-  Text,
   Dimensions,
   PermissionsAndroid,
   Platform,
 } from 'react-native';
+
+import BlackText from './common/BlackText';
 
 function getLocation() {
   return new Promise(async (resolve, reject) => {
@@ -88,16 +89,15 @@ const Speed = () => {
 
   console.log('datetime', datetime);
 
-
   return (
     <View>
-      <Text>Request: {statuses[status]}</Text>
-      <Text>{datetime}</Text>
-      <Text style={styles.speedText}>
+      <BlackText>Request: {statuses[status]}</BlackText>
+      <BlackText>{datetime}</BlackText>
+      <BlackText style={styles.speedText}>
         {Math.round(state.curState.coords.speed * 3.6)}
-      </Text>
-      <Text>longitude: {state.curState.coords.longitude}</Text>
-      <Text>latitude: {state.curState.coords.latitude}</Text>
+      </BlackText>
+      <BlackText>longitude: {state.curState.coords.longitude}</BlackText>
+      <BlackText>latitude: {state.curState.coords.latitude}</BlackText>
     </View>
   );
 };
